@@ -7,8 +7,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Accelerated Scrolling
 ; V1.3
 ; By BoffinbraiN
-; https://www.youtube.com/watch?v=OobKVPojFmg
-; ORIGINAL:  https://autohotkey.com/board/topic/48426-accelerated-scrolling-script/
 
 /*
 PLUS cursor click visualization 1.0, By Taran Van Hemert.
@@ -19,9 +17,6 @@ The click visualizations do not linger at all -- I don't know how to do this if 
 Middle click visualization does not work. I don't know why but nothing I try will work to get it to show up.
 Also, You'll have to modify the positioning of the GUI to suit your own computer and its UI scaling in Windows.
 */
-
-;Use this script only if you want cursor visualization, AND accelrated scrolling.
-;SOURCE: https://github.com/TaranVH/2nd-keyboard
 
 Menu, Tray, Icon, shell32.dll, 44 ; changes the icon to a star -- makes it easy to see which one it is.
 
